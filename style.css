@@ -1,0 +1,185 @@
+html, body {
+  background-color: rgb(86,86,126);
+  color: white;
+  font-family: 'Pacifico';
+  margin: 0;
+  overflow-x: hidden; 
+}
+
+.slider{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide{
+  min-width: 100vw;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  scroll-snap-align: center;
+}
+
+.principal {
+  font-style: normal;
+  font-weight: 400;
+  background-image: url("8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  align-items: flex-start;
+  text-align: center;
+  display: flex;
+  width: 100%
+  min-height: 100vh;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.botao{
+  background-color: #9B1A46;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  display: block;
+  font-family: "Dancing Script", system-ui;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-family: "Dancing Script", system-ui;
+  margin-left: 50px;
+  width: 80vh;
+
+}
+
+.botao2{
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 1em;
+  color: white;
+  display: block;
+  font-family: "Dancing Script", system-ui;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  margin-left: 50px;
+  width: 80vh;
+}
+
+.botao:hover{
+  background-color: pink;
+  color: black
+}
+
+.imagem{
+  height: 120px;
+  margin-left: 70px;
+  
+}
+ 
+.aviso{
+  color: grey;
+  font-size: 13px;
+  margin-left: 110px;
+  
+}
+
+.titulo{
+  width: 600px;
+  max-width: 600px;
+  margin-left: 20px;
+}
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 55% 50% 50%;
+}
+.menu{
+  max-width: 1200px;
+  margin: 50px;
+  padding: 20px;
+  display: grid;
+ grid-template-columns:repeat(2,1fr);
+  gap: 20px
+}
+
+.menutitulo{
+  color: rgb(226,213,213);
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-decoration: double;
+  text-align: center;
+  }
+
+.menuitem{
+  display: flex;
+  align-items: center;
+  background-color: rgb(113,113,155);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(255,255,255);
+  overflow: hidden;
+  
+}
+
+.menuimagem{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-left: 30px;
+  border-radius: 10px;
+  
+}
+ 
+.menuinfo{
+  padding: 20px; 
+}
+
+.itemmenu{
+  font-size: 25px;
+  color: black;  
+}
+
+.descricao2{
+  font-size: 20px;
+  color: black;
+  text-align: justify; 
+}
+
+.preco{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/*PÁGINA 3*/
+
+.titulo2{
+  font-size: 45px;
+  color: white;
+  margin-bottom: 1em;
+  text-align: center;
+ font-family: "Dancing Script", system-ui;
+}
+
+.secundario{
+  align-items: center;
+  margin: 0 10em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.descricao{
+  
+}
